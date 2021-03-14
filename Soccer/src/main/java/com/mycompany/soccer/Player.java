@@ -7,7 +7,7 @@ package com.mycompany.soccer;
 
 /**
  *
- * @author Administrador
+ * @author eogieglo
  */
 public class Player {
     public String playerName;
