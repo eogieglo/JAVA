@@ -7,8 +7,11 @@ package com.mycompany.soccer;
 
 /**
  *
- * @author Administrador
+ * @author eogieglo
  */
 public class Game {
+    public Team homeTeam;
+    public Team awayTeam;
+    public Goal[] goals;
     
 }
