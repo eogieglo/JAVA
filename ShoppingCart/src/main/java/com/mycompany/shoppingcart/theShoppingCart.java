@@ -28,7 +28,8 @@ public class theShoppingCart {
         double tax = 2;
         double total;
         int quantity= 2;
-        
+        boolean outOfStock = false;
+        //boolean outOfStock = true;
         System.out.println(" ");
         
         String message2 = custName +" want to purchase a " + quantity + itemDesc;
@@ -42,7 +43,18 @@ public class theShoppingCart {
         System.out.println(" Total cost with tax is " +  total);
         
         
-        
+        //Test value of quantity , if statement
+        if (quantity > 1) {
+            String message3 = custName +" want to purchase a " + quantity + itemDesc+"s";
+            System.out.println(message3);
+        }
+        //Test value of outOfStock, if/else statement
+        if (outOfStock == true){
+            
+            System.out.println("Item not available");
+        }else {
+            System.out.println(" The total cost of tax is: " + tax);
+        }
         
         
     }
