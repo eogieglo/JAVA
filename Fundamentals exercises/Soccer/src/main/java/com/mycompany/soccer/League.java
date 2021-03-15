@@ -15,7 +15,7 @@ public class League {
         
         player1.playerName="George Eliot";
         
-        System.out.println(player1.playerName);
+        
         
     }
 }

@@ -12,5 +12,17 @@ package com.mycompany.shoppingcart;
 public class theShoppingCart {
     public static void main(String[] args) {
         System.out.println("Welcome to the Shopping Cart");
+        
+        //Declare and initialize String Variables
+        String custName="Mary Smith";
+        String itemDesc="Shirt";
+        
+        
+        //Assign the message variable
+        String message = custName +" want to purchase a "+ itemDesc;
+        
+        System.out.println(message);
+        
+        
     }
 }
