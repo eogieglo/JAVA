@@ -7,8 +7,10 @@ package com.mycompany.shoppingcart;
 
 /**
  *
- * @author Administrador
+ * @author eogieglo
  */
 public class theShoppingCart {
-    
+    public static void main(String[] args) {
+        System.out.println("Welcome to the Shopping Cart");
+    }
 }
