@@ -16,6 +16,7 @@ public class theShoppingCart {
         //Declare and initialize String Variables
         String custName="Mary Smith";
         String itemDesc=" Shirt";
+        String [] arrayStock = {"Pants","Shirt","t-shirt","clothes"};
         
         
         //Assign the message variable
@@ -29,6 +30,7 @@ public class theShoppingCart {
         double total;
         int quantity= 2;
         boolean outOfStock = false;
+        
         //boolean outOfStock = true;
         System.out.println(" ");
         
@@ -56,6 +58,10 @@ public class theShoppingCart {
             System.out.println(" The total cost of tax is: " + tax);
         }
         
+        //Iteration for each in Array
+        for (String article: arrayStock){
+            System.out.println("The article is: " + article);
+        }
         
     }
 }
