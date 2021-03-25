@@ -10,5 +10,9 @@ package com.mycompany.soccer;
  * @author Administrador
  */
 public class Goal {
-    
+
+    public Team theTeam;
+    public Player thePlayer;
+    public double theTime;
+
 }

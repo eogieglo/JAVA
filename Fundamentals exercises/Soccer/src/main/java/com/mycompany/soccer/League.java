@@ -11,6 +11,7 @@ package com.mycompany.soccer;
  */
 public class League {
     public static void main(String[] args) {
+        
         Player player1 = new Player();
         
         player1.playerName="George Eliot";

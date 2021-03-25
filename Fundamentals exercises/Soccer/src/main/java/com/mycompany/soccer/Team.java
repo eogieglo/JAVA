@@ -10,5 +10,8 @@ package com.mycompany.soccer;
  * @author Administrador
  */
 public class Team {
+
+    public String teamName;
+    public Player[] playerArray;
     
 }
