@@ -29,10 +29,35 @@ public class League {
         team1.teamName = "The Greens";
         team1.playerArray = thePlayers;
 
+        Team team2 = new Team();
+        team2.teamName = "The Reds";
+        team2.playerArray  = new Player[3];
+        team2.playerArray[0] = new Player();
+        team2.playerArray[0].playerName = "Robert Services";
+        team2.playerArray[1] = new Player();
+        team2.playerArray[1].playerName = "Robbie Burns";
+        team2.playerArray[2] = new Player();
+        team2.playerArray[2].playerName = "Rafael Sabatini";
+
+        //player1.playerName="Robert Services";
+
         //Output
+        
+        System.out.println(" ");
+        System.out.println("Team 1");
+        System.out.println("--------------");
+        System.out.println(" ");
         for (Player thePlayer: team1.playerArray){
             System.out.println(thePlayer.playerName);
         }
 
+        System.out.println(" ");
+        System.out.println("Team 2");
+        System.out.println("--------------");
+        System.out.println(" ");
+
+        for (Player thePlayer: team2.playerArray){
+            System.out.println(thePlayer.playerName);
+        }
     }
 }
