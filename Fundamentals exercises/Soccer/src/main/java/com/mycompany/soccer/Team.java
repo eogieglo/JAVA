@@ -7,7 +7,7 @@ package src.main.java.com.mycompany.soccer;
 
 /**
  *
- * @author Administrador
+ * @author eogieglo
  */
 public class Team {
 

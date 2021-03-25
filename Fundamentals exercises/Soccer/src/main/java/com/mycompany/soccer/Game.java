@@ -9,6 +9,7 @@ package src.main.java.com.mycompany.soccer;
  *
  * @author eogieglo
  */
+
 public class Game {
     public Team homeTeam;
     public Team awayTeam;
